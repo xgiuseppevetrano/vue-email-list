@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    max-width: 75rem;
+    margin: 6.25rem auto;
+}
+
+.mail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.mail__item {
+    padding: .9375rem;
+    list-style-type: none;
+    text-align: center;
+    background-color: lightgray;
+    width: calc(100% / 3 - 2.5rem);
+    border-radius: .625rem;
+    box-shadow: .3125rem .3125rem .625rem 0px #000;
+    text-transform: uppercase;
+}

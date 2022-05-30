@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue Email List</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div id="app">
-        <ul>
-            <li v-for="mail in mails" v-show="mails.length === 10">{{mail}}</li>
+    <div id="app" class="app">
+        <ul class="mail">
+            <li class="mail__item" v-for="mail in mails" v-show="mails.length === 10">{{mail}}</li>
         </ul>
     </div>
 
